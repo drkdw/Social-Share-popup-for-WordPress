@@ -1,0 +1,61 @@
+/**
+* EXAMPLE SOCIAL SHARE CSS.
+* Source: https: //hoolite.be/coding/add-a-social-share-popup-to-your-wordpress-blog-no-plugin/.
+*/
+
+.social-share {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-share a {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    transition: ease all .3s;
+}
+
+.social-share a:last-child {
+    margin-right: 0;
+}
+
+.social-share img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.social-share .ss-facebook,
+.social-share .ss-twitter,
+.social-share .ss-linkedin,
+.social-share .ss-whatsapp,
+.social-share .ss-email {
+    padding: 16px;
+    margin: 8px;
+    display: block;
+    border-radius: 10px;
+}
+
+.social-share .ss-facebook {
+    background-color: #3b5998;
+}
+
+.social-share .ss-twitter {
+    background-color: #1da1f2
+}
+
+.social-share .ss-linkedin {
+    background: #0a66c2
+}
+
+.social-share .ss-whatsapp {
+    background: #25d366
+}
+
+.social-share .ss-email {
+    background: #312651
+}
+
+@media all and (min-width: 768px) {
+    .social-share .mobile-icon {
+        display: none;
+    }
+}
